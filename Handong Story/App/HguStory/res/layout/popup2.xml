@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150sp"
+    android:layout_height="300sp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FF8C00"
+        android:text="개인정보취급약관"
+        android:textColor="#2F4F4F"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="15dp"
+                android:layout_height="234dp"
+                android:background="#FF8C00" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.98"
+                android:background="#FF8C00" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1장. xml 파싱되도록해서
+                    2장. 어째어째하면되는데
+                    3장. popup window에서 될지
+                    4장. ㅋㅋㅋㅋㅋㅋㅋ
+                    5장. 일단자야지 ㅋㅋㅋ
+                    1장. xml 파싱되도록해서
+                    2장. 어째어째하면되는데
+                    3장. popup window에서 될지
+                    4장. ㅋㅋㅋㅋㅋㅋㅋ
+                    5장. 일단자야지 ㅋㅋㅋ
+                    1장. xml 파싱되도록해서
+                    2장. 어째어째하면되는데
+                    3장. popup window에서 될지
+                    4장. ㅋㅋㅋㅋㅋㅋㅋ
+                    5장. 일단자야지 ㅋㅋㅋ"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </ScrollView>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="14dp"
+                android:layout_height="234dp"
+                android:background="#FF8C00" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="#FF8C00" />
+
+    </LinearLayout>
+ 
+</RelativeLayout>
